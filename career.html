@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Career - Ledger Partners</title>
+  <meta name="description" content="We process complex data into plain and simple information graphics and understandable sheets. We research and manage data for companies." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="dataanalyst.css" />
+  <link rel="stylesheet" href="career.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="assets/lP_logo.png" alt="Ledger Partners" />
+      </a>
+
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="finance.html" class="nav-link">Finance</a>
+        <a href="nexterp.html" class="nav-link">Nexterp</a>
+        <a href="dataanalyst.html" class="nav-link ">Data Analytics</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="#" class="nav-link active">Career</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="contact.html" class="btn-contact">Contact us</a>
+        <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation">
+      <a href="index.html">Home</a>
+      <a href="finance.html">Finance</a>
+      <a href="nexterp.html">Nexterp</a>
+      <a href="dataanalyst.html">Data Analytics</a>
+      <a href="about.html">About</a>
+      <a href="#">Career</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" aria-label="Hero">
+    <div class="hero-overlay" aria-hidden="true"></div>
+    <div class="hero-fade" id="heroFade" aria-hidden="true"></div>
+    <video class="hero-video" autoplay muted loop playsinline poster="https://cdn.prod.website-files.com/64a2be73942e1d57fed077f3/68b832e4d2d573246ddfcf18_Rectangle%20120.png" aria-hidden="true">
+      <source src="assets/hero.mp4" type="video/mp4" />
+    </video>
+    <div class="hero-content">
+      <div class="hero-eyebrow">Join Ledger Partners</div>
+      <h1>Career In</h1>
+      <h2>Ledger Partners</h2>
+      <p>Be part of a team transforming complex business challenges into intelligent, data-driven solutions.</p>
+      
+    </div>
+   
+  </section>
+
+  <div class="ticker-strip" aria-hidden="true">
+    <div class="ticker-inner">
+      <span class="ticker-item"><span class="ticker-dot"></span>Accounting Services</span><span class="ticker-item"><span class="ticker-dot"></span>Bookkeeping</span><span class="ticker-item"><span class="ticker-dot"></span>VAT &amp; Tax Compliance</span><span class="ticker-item"><span class="ticker-dot"></span>Audit Assistance</span><span class="ticker-item"><span class="ticker-dot"></span>ERP Implementation</span><span class="ticker-item"><span class="ticker-dot"></span>Business Intelligence</span><span class="ticker-item"><span class="ticker-dot"></span>Corporate Setup</span><span class="ticker-item"><span class="ticker-dot"></span>Advisory &amp; Consultancy</span>
+      <span class="ticker-item"><span class="ticker-dot"></span>Accounting Services</span><span class="ticker-item"><span class="ticker-dot"></span>Bookkeeping</span><span class="ticker-item"><span class="ticker-dot"></span>VAT &amp; Tax Compliance</span><span class="ticker-item"><span class="ticker-dot"></span>Audit Assistance</span><span class="ticker-item"><span class="ticker-dot"></span>ERP Implementation</span><span class="ticker-item"><span class="ticker-dot"></span>Business Intelligence</span><span class="ticker-item"><span class="ticker-dot"></span>Corporate Setup</span><span class="ticker-item"><span class="ticker-dot"></span>Advisory &amp; Consultancy</span>
+    </div>
+  </div>
+
+  <!-- JOIN US / APPLY -->
+  <section class="join-section" aria-label="Join our team">
+    <div class="join-inner">
+
+      <div class="join-intro reveal-left">
+        <div class="hero-eyebrow">Connect With Us</div>
+        <h2 class="join-title">Join Our<br /><em>Growing Team</em></h2>
+        <p class="join-text">
+          Tell us a bit about yourself and we'll get back to you. Submitting this form will open
+          both WhatsApp and your email app with your details pre-filled — just hit send on each.
+        </p>
+        <ul class="join-points">
+          <li><span class="join-dot"></span>Fast response from our hiring team</li>
+          <li><span class="join-dot"></span>Roles across Finance, Data &amp; ERP</li>
+          <li><span class="join-dot"></span>Remote-friendly, growth-focused culture</li>
+        </ul>
+      </div>
+
+      <form class="join-form reveal-right" id="joinForm" novalidate>
+        <div class="join-row">
+          <div class="join-field">
+            <label for="joinName">Full name</label>
+            <input type="text" id="joinName" name="name" placeholder="e.g. Sara Al-Amin" autocomplete="name" required />
+          </div>
+          <div class="join-field">
+            <label for="joinEmail">Email address</label>
+            <input type="email" id="joinEmail" name="email" placeholder="you@example.com" autocomplete="email" required />
+          </div>
+        </div>
+
+        <div class="join-row">
+          <div class="join-field">
+            <label for="joinPhone">Phone / WhatsApp number</label>
+            <input type="tel" id="joinPhone" name="phone" placeholder="+91 79079 48414" autocomplete="tel" required />
+          </div>
+          <div class="join-field">
+            <label for="joinQualification">Highest qualification</label>
+            <input type="text" id="joinQualification" name="qualification" placeholder="e.g. B.Com, MBA" required />
+          </div>
+        </div>
+
+        <div class="join-field">
+          <label for="joinDepartment">Department of interest</label>
+          <input type="text" id="joinDepartment" name="department" placeholder="e.g. Finance, Data Analytics, ERP" required />
+        </div>
+
+        <div class="join-field">
+          <label for="joinResume">Resume / CV (PDF)</label>
+          <div class="join-resume-upload" id="joinResumeUpload">
+            <input type="file" id="joinResume" name="resume" accept="application/pdf,.pdf" required />
+            <label for="joinResume" class="join-resume-dropzone" id="joinResumeLabel">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 16V4M12 4l-4 4M12 4l4 4"/><path d="M4 16v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-3"/></svg>
+              <span id="joinResumeText">Click to select your resume (PDF only)</span>
+            </label>
+          </div>
+          <p class="join-resume-note">
+            Note: once WhatsApp / Email opens, please attach this same file manually there too — browsers won't let a page auto-attach it for you.
+          </p>
+        </div>
+
+        <button type="submit" class="btn-primary join-submit">
+          Send My Application
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </button>
+
+        <p class="join-status" id="joinStatus" role="status" aria-live="polite"></p>
+      </form>
+
+    </div>
+  </section>
+
+
+        <!-- CTA BAND -->
+  <section class="erp-cta" aria-label="Call to action">
+    <div class="erp-cta-content">
+      <h2>Ready to run your business with <em>Ledger Partners?</em></h2>
+      <div class="erp-cta-btns">
+        <a href="/contact.html" class="btn-cta-ghost">Ping us</a>
+      </div>
+    </div>
+  </section>
+
+
+    <!-- FOOTER -->
+  <footer class="footer" aria-label="Footer">
+    <div class="footer-top">
+      <div class="footer-contact">
+        <p><strong>Get in touch</strong></p>
+        <p>Contact US: <a href="tel:+917907948414">+91 79079 48414</a></p>
+        <p>Email: <a href="mailto:ledgerpartnersofficial@gmail.com"> Ledger Partners</a></p>
+        <div class="social-links" aria-label="Social media">
+          <a href="https://www.instagram.com/ledgerpartners/" target="_blank" rel="noopener" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="https://www.linkedin.com/company/legerpartners/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-newsletter">
+        <p>Talk to us on WhatsApp</p>
+        <form id="waLeadForm" novalidate>
+          <input type="text" id="waName" placeholder="Your name" aria-label="Name" autocomplete="name" required />
+          <input type="email" id="waEmail" placeholder="Email address" aria-label="Email address" autocomplete="email" required />
+          <input type="tel" id="waPhone" placeholder="WhatsApp number" aria-label="WhatsApp number" autocomplete="tel" required />
+          <button type="submit">Send on WhatsApp</button>
+        </form>
+      </div>
+    </div>
+    <nav class="footer-nav" aria-label="Footer navigation">
+      <div class="footer-logo-col"><img src="assets/lP_logo.png" alt="Ledger Partners" class="footer-logo" /></div>
+    </nav>
+    <div class="footer-bottom">
+      <div class="footer-legal"><a href="index.html">Home</a><a href="sitemap.xml">Site map</a></div>
+      <p class="footer-copy">© <span id="year"></span> Ledger Partners All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="contact.js"></script>
+  <script src="career.js"></script>
+</body>
+</html>
