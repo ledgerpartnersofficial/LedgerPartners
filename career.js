@@ -34,7 +34,7 @@
       resumeLabel.classList.add('file-error');
       resumeText.textContent = 'That file isn\'t a PDF — please choose a .pdf file';
       resumeInput.value = '';
-      return;
+      return;zz
     }
 
     resumeLabel.classList.add('has-file');

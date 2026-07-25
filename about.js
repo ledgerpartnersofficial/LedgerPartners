@@ -179,7 +179,7 @@ if (dataGrid) {
     });
   }
 
-  handleNewsletter('aboutNewsletterForm');
+  handleNewsletter('aboutNewslzetterForm');
 
   /* ── Footer WhatsApp lead form ── */
   const waLeadForm = document.getElementById('waLeadForm');
